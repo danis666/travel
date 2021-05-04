@@ -17,6 +17,12 @@ h1, h2, h3, h4, h5, h6{
     margin: 0 auto;
     padding: 0 15px;
 }
+.container__2{
+    max-width: 1292px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;    
+}
 
 /* header starts */
 .header{
@@ -127,21 +133,16 @@ h1, h2, h3, h4, h5, h6{
 .benefits{
     position: relative;
     z-index: 50;
-}
-.benefits__container{    
-    max-width: 1262px;
-    width: 100%;
-    margin: 0 auto;
+    padding: 93px 0 112px;
+    margin: -223px 0 131px;
     background: #fff;
     box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
 }
 
-.benefits__title{
+.section__title-h2{
     font-size: 35px;
     line-height: 42px;
-    padding-top: 93px;
-    margin-bottom: 120px;
-    margin-top: -223px;
+    margin-bottom: 120px;    
 }
 .benefits__cards{
     display: grid;
@@ -151,7 +152,6 @@ h1, h2, h3, h4, h5, h6{
 .benefits__cards-item{
     display: flex;
     flex-direction: column;
-    margin-bottom: 111px;
 }
 .benefits__cards-item img{
     display: block;
@@ -170,7 +170,8 @@ h1, h2, h3, h4, h5, h6{
     color: #000;
     margin-bottom: 39px;
 }
-.benefits__cards-link{
+.info__link{
+    display: block;
     width: max-content;
     font-size: 16px;
     line-height: 24px;
@@ -179,11 +180,52 @@ h1, h2, h3, h4, h5, h6{
     background: url(../images/Shape.svg) no-repeat 95% center;
     transition: .2s;
 }
-.benefits__cards-link:hover, .benefits__cards-link:active, .benefits__cards-link:focus{
+.info__link:hover, .info__link:active, .info__link:focus{
     text-decoration: underline;
     background: url(../images/Shape.svg) no-repeat center right;
-
 }
+
+.inspire__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 46px;
+}
+.inspire__title{
+    margin-bottom: 0;
+    
+}
+.inspire__title::after{
+    content: '';
+    display: block;
+    width: 253px;
+    height: 3px;
+    background: #006DFE;
+    margin-top: 7px;
+}
+.inspire__cards{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.first__row{
+    grid-column: span 3;
+}
+.second__row{
+    grid-column: span 2;
+}
+.inspire__card-item{
+    position: relative;
+}
+.inspire__card-title{
+    position: absolute;
+    left: 29px;
+    bottom: 27px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
 
 
 
