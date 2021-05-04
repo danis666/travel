@@ -21,7 +21,7 @@ main img{
     margin: 0 auto;
     padding: 0 15px;
 }
-.container__2{
+.container__section{
     max-width: 1292px;
     width: 100%;
     margin: 0 auto;
@@ -59,6 +59,8 @@ main img{
 /* header ends */
 
 /* main starts */
+
+/* intro starts */
 .intro{
     position: relative;    
 }
@@ -130,7 +132,10 @@ main img{
     text-transform: uppercase;
     background: #1B7DFF;
 }
-.benefits{
+/* intro ends */
+
+/* benefits starts */
+.benefits__contain{
     position: relative;
     z-index: 50;
     padding: 93px 0 112px;
@@ -183,7 +188,9 @@ main img{
     text-decoration: underline;
     background: url(../images/Shape.svg) no-repeat center right;
 }
+/* benefits ends */
 
+/* inspire starts */
 .inspire__head{
     display: flex;
     justify-content: space-between;
@@ -263,6 +270,9 @@ main img{
     height: 100%;
     z-index: 4;
 }
+/* inspire ends */
+
+/* main ends */
 
 
 
